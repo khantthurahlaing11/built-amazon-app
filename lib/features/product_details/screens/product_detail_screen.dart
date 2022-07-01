@@ -11,7 +11,7 @@ import 'package:flutterbackend/providers/user_provider.dart';
 import 'package:provider/provider.dart';
 
 class ProductDetailScreen extends StatefulWidget {
-  // static const String routeName = '/product-details';
+  static const String routeName = '/product-details';
   final Product product;
   const ProductDetailScreen({ Key? key ,required this.product }) : super(key: key);
 
